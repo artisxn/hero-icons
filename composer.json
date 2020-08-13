@@ -1,0 +1,32 @@
+{
+    "name": "codicastudio/hero-icon",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "NovaHeroIcon\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NovaHeroIcon\\ToolServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
