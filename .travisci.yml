@@ -10,7 +10,7 @@ env:
 
 matrix:
     include:
-        - php: 7.4
+        - php: 7.4.8
           env: LARAVEL='7.*' TESTBENCH='5.*' COMPOSER_FLAGS='--prefer-stable'
     fast_finish: true
 
